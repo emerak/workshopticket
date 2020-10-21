@@ -1,0 +1,81 @@
+{
+  "Minitest": {
+    "coverage": {
+      "/Users/alejandracernas/workshop/app/services/random_quote_service.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          2,
+          null,
+          2,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/alejandracernas/workshop/app/controllers/v1/quotes_controller.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          1,
+          2,
+          null,
+          2,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/alejandracernas/workshop/app/controllers/application_controller.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null
+        ]
+      },
+      "/Users/alejandracernas/workshop/app/controllers/v1/greetings_controller.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/alejandracernas/workshop/app/models/application_record.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "branches": {
+        }
+      }
+    },
+    "timestamp": 1603319215
+  }
+}

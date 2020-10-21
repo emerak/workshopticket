@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'net/http'
 
 class RandomQuoteService
@@ -8,8 +10,8 @@ class RandomQuoteService
 
     response = Net::HTTP.get(uri)
 
-    OpenStruct.new({success?: true, response: response})
-  rescue => error
-    OpenStruct.new({success?: false, error: error})
+    OpenStruct.new({ success?: true, response: response })
+  rescue StandardError => e
+    OpenStruct.new({ success?: false, error: e.message })
   end
 end
